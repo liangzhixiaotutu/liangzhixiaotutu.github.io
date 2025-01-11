@@ -24,4 +24,10 @@
       - [纪念日](./chapter_2.1.1.md)
       - [循环再启的双螺旋](./chapter_2.1.2.md)
       - [海流](./chapter_2.1.3.md)
+      - [灯塔](./chapter_2.1.4.md)
 - [BanG Dream!](./chapter_3.md)
+- [食物语](./chapter_4.md)
+   - [同人文](./chapter_4.1.md)
+      - [岁末杂记](./chapter_4.1.1.md)
+         - [上篇](./chapter_4.1.1.1.md)
+     
