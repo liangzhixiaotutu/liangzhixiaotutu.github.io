@@ -1,13 +1,11 @@
-# Sample workflow for building and deploying a mdBook site to GitHub Pages
-#
-# To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
-#
-name: Deploy mdBook site to Pages
-
+name: publish site
+# 触发条件
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches:
+      - main
+# workflow 的具体内容
+jobs:
   deploy:
     # 创建一个 Ubuntu 容器
     runs-on: ubuntu-latest
@@ -16,9 +14,10 @@ on:
       - uses: actions/checkout@v2
       # 再安装 Python 和相关环境
       - uses: actions/setup-python@v2
-        with:
+       with:
       - name: Build with mdBook
         run: mdbook build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        path: ./book
+        with:
+          path: ./book
