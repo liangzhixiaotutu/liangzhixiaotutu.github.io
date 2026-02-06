@@ -26,6 +26,8 @@
 
 ## [断章](https://liangzhixiaotutu.github.io/chapter_4.1.1.2.html "Title")
 
-## 中篇
+## [中篇](https://liangzhixiaotutu.github.io/chapter_4.1.1.3.html "Title")
+
+## 断章
 
 ## 下篇
